@@ -6,11 +6,11 @@ import { activeMenuState } from "../src/states";
 
 const Home: NextPage = () => {
   const setActiveMenu = useSetRecoilState(activeMenuState);
-  setActiveMenu("/");
+  setActiveMenu("/cal");
   return (
     <Layout>
       <VStack align={"flex-start"} p="10" justify={"flex-start"} height="100%">
-        <Heading>Home</Heading>
+        <Heading>Calculator</Heading>
       </VStack>
     </Layout>
   );
