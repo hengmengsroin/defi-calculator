@@ -5,7 +5,7 @@ import Layout from "../components/Layout";
 const Home: NextPage = () => {
   return (
     <Layout>
-      <VStack>
+      <VStack align={"flex-start"} p="10" justify={"flex-start"} height="100%">
         <Heading>Home</Heading>
       </VStack>
     </Layout>

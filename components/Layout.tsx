@@ -4,11 +4,11 @@ import TopBar from "./TopBar";
 
 export default function Layout({ children }: any) {
   return (
-    <VStack>
+    <VStack height={"100%"} width={"100%"}>
       <TopBar />
-      <HStack>
+      <HStack height={"100%"} width={"100%"} mt="0 !important">
         <NavBar />
-        <Box>{children}</Box>
+        {children}
       </HStack>
     </VStack>
   );
